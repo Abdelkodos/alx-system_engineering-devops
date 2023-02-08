@@ -1,1 +1,6 @@
-0 string SCHOOL School data file
+#!/bin/bash
+if grep -q "SCHOOL" school-data-file; then
+    echo "The file contains the string 'SCHOOL'."
+else
+    echo "The file does not contain the string 'SCHOOL'."
+fi
