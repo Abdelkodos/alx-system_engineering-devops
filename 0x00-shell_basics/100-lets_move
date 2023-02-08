@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name '[[:upper:]]*' -exec sh -c ' exec mv "$@" ~/tmp/u/' sh {} +
+find . -type f -name '[[:upper:]]*' -exec mv -t /tmp/u {} +
