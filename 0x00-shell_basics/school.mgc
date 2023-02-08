@@ -1,1 +1,5 @@
-0 string SCHOOL data
+input 1: 0 string SCHOOL School data
+
+input 2: !:mime School
+
+compile
