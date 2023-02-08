@@ -1,3 +1,2 @@
-#!/bin/sh
-path = $(pwd)
-echo path
+#!/bin/bash
+echo "$(pwd)"
