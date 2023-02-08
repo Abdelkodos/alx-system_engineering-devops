@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(ls -p | grep -v /)"
+echo "$(ls -la -m -F /)"
