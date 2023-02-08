@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(ls -la -m)"
+echo "$(ls -la -F -m)"
